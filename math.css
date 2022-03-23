@@ -1,0 +1,85 @@
+body{
+    background:url(olala.jpg);
+    background-size:cover;
+}
+#heading{
+    font-family:cursive;
+    color:white;
+    font-size:100;
+}
+#login{
+    font-family: 'Staatliches', cursive;
+    color:rgb(219, 138, 219);
+    font-size:60;
+}
+.line{
+    height:10;
+    width:200;
+    background-color:lightgoldenrodyellow;
+}
+#input1{
+    height:50px;
+    width: 500px;
+    border-radius: 50px;
+    background-color: rgb(144, 238, 144);
+    font-size: 30px;
+    color:black;
+}
+#input2{
+    height:50px;
+    width: 500px;
+    border-radius: 50px;
+    background-color: pink;
+    font-size: 30px;
+    color:black;
+}
+#div1{
+    background:rgba(155, 243, 255, 0.685);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+}
+.instructions{
+    color:black;
+    font-family:monospace;
+    font-weight:bold ;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.headingstyle{
+    color:white;
+    font-style: oblique;
+}
+.instructions2{
+    color:white;
+    font-family:monospace;
+    font-weight:bold ;
+    font-size: 30px;
+}
+#enternumber{
+    height:40px;
+    width:500px;
+}
+#enternumber2{
+    height:40px;
+    width:500px;
+}
+#name1{
+    color:white;
+}
+#name2{
+    color:white;
+}
+#score1{
+    color:white;
+}
+#score2{
+    color:white;
+}

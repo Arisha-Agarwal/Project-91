@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Math quiz!</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="math.css">
+
+<script src="login.js"></script>
+<script src="main.js"></script>
+</head>
+<body>
+    <h2 id="name1"></h2> <span id="score1"></span>
+		<h2 id="name2"></h2> <span id="score2"></span>
+
+        <div class="container">
+            <center>
+                <h2 style="color: white;" id="heading">Math Quiz!</h2>
+                    <h1 id="questionturn"></h1>
+                    <h1 id="answerturn"></h1>
+                    <div id="output" class="col-lg-6"></div>
+                    <br>
+                    <br>
+                    <label class="instructions2">Enter first number: </label>
+		<br>
+<input type="text" id="enternumber" placeholder="Enter the 1st number here...">
+		<br><br><br>
+        <label class="instructions2">Enter second number: </label>
+		<br>
+<input type="text" id="enternumber2" placeholder="Enter the 2nd number here...">
+		<br><br><br>
+<button class="btn btn-info buttonstart" onclick="send()">~START QUIZ~</button>
+	</center>
+</div>
+</body>
+</html>
